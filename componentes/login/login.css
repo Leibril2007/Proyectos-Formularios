@@ -1,0 +1,177 @@
+.box-login{
+    width: 100%;
+    max-width: 60rem;
+    height: 37.8rem;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom:4%;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 30rem auto;
+}
+.box-login .formulario{
+    height: 100%;
+    padding: 2rem 6rem;
+    display: grid;
+    grid-template-columns: repeat(8,auto);
+    grid-template-rows: auto 3.5rem 3.5rem auto 1fr;
+    column-gap: 0.5rem;
+    row-gap: 0.8rem;
+}
+.box-login .logo{
+    grid-column: 1/9;
+}
+.box-login h2{
+    grid-column: 1/9;
+}
+.box-login .btn-facebook{
+    grid-column: 1/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.box-login .btn-x{
+    grid-column: 5/8;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.box-login span{
+    grid-column: 1/9;
+}
+/* DISEÑO */
+.box-login .logo{
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1rem 0rem;
+}
+.box-login h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: rgb(131, 127, 127);
+}
+.btn-facebook{
+    width: 9.8rem;
+    height: 2.5rem;
+    border-radius: 3px;
+    background-color: rgb(40, 106, 181);
+    gap: 0.5rem;
+}
+.letFace{
+    font-size: 0.8rem;
+    color: aliceblue;
+}
+.imgFace{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 3rem;
+}
+.btn-x{
+    width: 9.5rem;
+    height: 2.5rem;
+    font-size: 0.8rem;
+    border-radius: 3px;
+    background-color: #185134;
+    color: aliceblue;
+    gap: 0.5rem;
+}
+.letTwit{
+    font-size: 0.8rem;
+    color: aliceblue;
+}
+.imgX{
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 3rem;
+}
+.box-login span{
+    text-align: center;
+    color: rgb(131, 127, 127);
+}
+#login{
+    grid-column: 1/9;
+}
+#login label{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+}
+#login input{
+    height: 2rem;
+    border: none;
+    outline: none;
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+#login .emaiInput .inpEmail{
+    border-bottom: 2px solid blueviolet;
+}
+#login .passInput{
+    border-bottom: 2px solid rgb(212, 211, 212);
+    margin: 0.9rem 0rem;
+}
+#login .opciones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#login .opciones label{
+    font-size: 1rem;
+    color: rgb(32, 32, 32);
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+.opciones .forgot{
+    color: rgb(32, 32, 32);
+    font-weight: 600;
+}
+#login .opciones label input{
+    width: 1rem;
+}
+#login .botones button{
+    margin-top: 1.6rem;
+    border: none;
+    width: 7.5rem;
+    height: 2.5rem;
+    border-radius: 3px;
+}
+#login .botones .botSign{
+    margin-left: 1.5rem;
+    color: rgb(58, 58, 58);
+    background-color: white;
+    border: 1px solid rgb(133, 133, 133);
+}
+#login .botones .botLogin{
+    color: white;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    box-shadow: 0px 11px 20px 1px rgb(202, 201, 201);
+}
+.box-login .formulario p{
+    color: rgb(131, 127, 127);
+}
+.box-login .formulario .pLogin{
+    margin-top: 2rem;
+}
+.box-login .formulario .terminosLogin{
+    color: rgb(107, 129, 254);
+    text-decoration: none;
+}
+
+.conjY{
+    color: rgb(131, 127, 127);
+}
+
+.banner {
+    height: 37.7rem;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
