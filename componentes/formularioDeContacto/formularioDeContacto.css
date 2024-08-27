@@ -1,0 +1,173 @@
+:root{
+    --colorNegro: #120E1F;
+    --colorMorado: #CB7DD3;
+}
+body{
+    background-image: url("https://github.com/Leibril2007/Img/blob/main/adrien-converse-kCrrUx7US04-unsplash%201%20(1).jpg?raw=true");
+    background-size: cover;
+}
+
+.secContacto{
+    width: 100%;
+    max-width: 68rem;
+    height: 37.8rem;
+    margin: auto;
+    margin-top: 4%;
+    margin-bottom:4%;
+    font-family: "Jura", sans-serif;
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: 31.5rem 1fr;
+    grid-template-rows: repeat(5, 1fr);
+}
+
+.pFormContacto{
+    grid-column: 2/4;
+    grid-row: 1/6;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3.5rem 5rem 1fr 3.5rem auto;
+    gap: 1rem;
+}
+
+/* MENU */
+
+.menuFC{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding: 0rem 2rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logFC{
+    width: 5.5rem;
+    height: 2rem;
+    border-radius: 2rem;
+    background: rgb(18,14,31);
+    background: radial-gradient(circle, rgba(18,14,31,1) 0%, rgba(203,125,211,1) 100%);
+    color: antiquewhite;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aMenFC{
+    text-decoration: none;
+    color: var(--colorNegro);
+    margin-right: 1.5rem;
+    font-weight: 500;
+}
+
+/* TITULO */
+
+.getInTouchFC{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 0rem 2rem;
+    color: var(--colorNegro);
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+/* FORMULARIO */
+
+#formularioContacto{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    padding: 0rem 2rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+#formularioContacto label{
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+}
+#formularioContacto .labelName{
+    grid-row: 1/2;
+}
+#formularioContacto .labelEmail{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+#formularioContacto .labelMessage{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+#formularioContacto .labelLastN{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#formularioContacto label input{
+    margin-top: 0.5rem;
+    width: 14rem;
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    border-bottom: 2px solid var(--colorNegro);
+}
+
+/* BOTON SUBMIT */
+
+.submitContac{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    margin-left: 2rem;
+    width: 7.5rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    background: rgb(18,14,31);
+    background: radial-gradient(circle, rgba(18,14,31,1) 0%, rgba(203,125,211,1) 100%);
+    color: antiquewhite;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CONTACTANOS */
+
+.redesFC{
+    grid-column: 1/2;
+    grid-row: 5/6;
+    background-color: var(--colorNegro);
+    height: 8rem;
+    padding: 2rem 2.9rem;
+
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+.pFormContacto .redesFC h3{
+    color: #FFFF;
+    font-weight: 100;  
+    margin-bottom: 0.5rem; 
+}
+.pFormContacto .redesFC .iconRedesFC .imgFC{
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.8rem;
+}
+
+/* BANNER */
+.pFCBanner{
+    grid-column: 1/2;
+    grid-row: 1/8;
+    background-color: #96469f;
+    background-image: linear-gradient(180deg, #96469f 0%, #b757c1 50%, #e2e2e2 100%);
+
+    display: flex;
+    justify-content: center;
+}
+.pFCBanner .fCBannerImg{
+    margin-top: 1rem;
+    width: 28rem;
+    height: 32rem;
+}
